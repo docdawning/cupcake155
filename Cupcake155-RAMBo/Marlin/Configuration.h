@@ -221,7 +221,7 @@
 //if PREVENT_DANGEROUS_EXTRUDE is on, you can still disable (uncomment) very long bits of extrusion separately.
 #define PREVENT_LENGTHY_EXTRUDE
 
-#define EXTRUDE_MINTEMP 160
+#define EXTRUDE_MINTEMP 75
 #define EXTRUDE_MAXLENGTH (X_MAX_LENGTH+Y_MAX_LENGTH) //prevent extrusion of very large distances.
 
 /*================== Thermal Runaway Protection ==============================
@@ -346,7 +346,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define X_MIN_POS -15
 #define Y_MAX_POS 99
 #define Y_MIN_POS 0
-#define Z_MAX_POS 90
+#define Z_MAX_POS 95
 #define Z_MIN_POS 0
 
 #define X_MAX_LENGTH (X_MAX_POS - X_MIN_POS)
@@ -485,7 +485,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 //// MOVEMENT SETTINGS
 #define NUM_AXIS 4 // The axis order in all axis related arrays is X, Y, Z, E
-#define HOMING_FEEDRATE {50*60, 50*60, 115, 0}  // set the homing speeds (mm/min)
+#define HOMING_FEEDRATE {50*60, 50*60, 100, 0}  // set the homing speeds (mm/min)
 
 // default settings
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {78.7402,78.7402,200.0*8/3,760*1.1}  // default steps per unit for Ultimaker
@@ -502,7 +502,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 //Cupcake155 (Rambo)
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {93.727842795, 93.727842795, 2548.8, 101.0869}  // default steps per unit for Cupcake155 (on RAMBo)
-#define DEFAULT_MAX_FEEDRATE          {5000, 5000, 150, 5000/60}    // (mm/sec)    
+#define DEFAULT_MAX_FEEDRATE          {5000, 5000, 2, 5000/60}    // (mm/sec)    
 #define DEFAULT_MAX_ACCELERATION      {900,900,10,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
 
 #define DEFAULT_ACCELERATION          900    // X, Y, Z and E max acceleration in mm/s^2 for printing moves 
