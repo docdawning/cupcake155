@@ -156,10 +156,12 @@
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 //Cupcake155
-#define  DEFAULT_Kp 13.24
-#define  DEFAULT_Ki 0.46
-#define  DEFAULT_Kd 95.97
-
+#define  DEFAULT_Kp 12.07
+#define  DEFAULT_Ki 0.32
+#define  DEFAULT_Kd 113.22
+//#define  DEFAULT_Kp 13.24
+//#define  DEFAULT_Ki 0.46
+//#define  DEFAULT_Kd 95.97
 
 // Ultimaker
 //#define  DEFAULT_Kp 22.2
