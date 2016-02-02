@@ -1,6 +1,7 @@
-<div style="float:right;width:260px;"><img width="250px" src="http://www.dawning.ca/wp-content/uploads/2009/10/IMG_3498-e1454188891425-768x1024.jpg"></div>
 <H2>Cupcake155</H2>
 Cupcake155 is my modernized MakerBot Cupcake CNC Printer. The Cupcakes were really Repraps. Mine was the 155th MakerBot and I've since gutted it to keep it fairly current.
+
+<div align="center"><img width="250px" src="http://www.dawning.ca/wp-content/uploads/2009/10/IMG_3498-e1454188891425-768x1024.jpg"></div>
 
 This repo contains the files I have changed to suit the needs of my printer. You can find the marlin sources here: https://github.com/MarlinFirmware/Marlin
 
