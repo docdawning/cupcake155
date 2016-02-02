@@ -1,4 +1,4 @@
-<img src="http://www.dawning.ca/wp-content/uploads/2009/10/IMG_3498-e1454188891425-768x1024.jpg" style="float:right;width:250px;">
+<div style="float:right;width:260px;"><img width="250px" src="http://www.dawning.ca/wp-content/uploads/2009/10/IMG_3498-e1454188891425-768x1024.jpg"></div>
 <H2>Cupcake155</H2>
 Cupcake155 is my modernized MakerBot Cupcake CNC Printer. The Cupcakes were really Repraps. Mine was the 155th MakerBot and I've since gutted it to keep it fairly current.
 
