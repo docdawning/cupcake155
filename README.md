@@ -17,20 +17,21 @@ I've also included some STLs for addons, some designed by me, some taken from el
 The Cupcake155 project home is here: http://www.dawning.ca/cupcake155/
 Also, here: https://hackaday.io/project/9190-cupcake155
 </div>
-
-<h3>Revision Settings</h3>
-<table>
-<thead>
-<tr><td>Version</td><td>XY Feedrates</td><td>E feedrate</td><td>XY accel</td><td>Z accel</td><td>XY jerk</td></tr>
-</thead>
-<tr><td>v0.2</td><td>5000</td><td>5000/60</td><td>900</td><td>10</td><td>20</td></tr>
-<tr><td>v0.3</td><td>3000</td><td>5000/60</td><td>200</td><td>10</td><td>5</td></tr>
-<tr><td>v0.4</td><td>3000</td><td>5000/60</td><td>2000</td><td>10</td><td>5</td></tr>
-<tr><td>v0.5</td><td>2000</td><td>5000/60</td><td>750</td><td>10</td><td>5</td></tr>
-</table>
-
 <h3>Links</h3>
 <UL>
 <LI>The Cupcake155 project home is here: http://www.dawning.ca/cupcake155/</LI>
 <LI>Also, here: https://hackaday.io/project/9190-cupcake155</LI>
 </UL>
+
+<h3>Configuration Revisions</h3>
+<table>
+<thead>
+<tr><td>Version</td><td>XY Feedrates</td><td>E feedrate</td><td>XY accel</td><td>Z accel</td><td>XY jerk</td></tr>
+</thead>
+<tr><td>v0.5</td><td>2000</td><td>5000/60</td><td>750</td><td>10</td><td>5</td></tr>
+<tr><td>v0.4</td><td>3000</td><td>5000/60</td><td>2000</td><td>10</td><td>5</td></tr>
+<tr><td>v0.3</td><td>3000</td><td>5000/60</td><td>200</td><td>10</td><td>5</td></tr>
+<tr><td>v0.2</td><td>5000</td><td>5000/60</td><td>900</td><td>10</td><td>20</td></tr>
+</table>
+
+
