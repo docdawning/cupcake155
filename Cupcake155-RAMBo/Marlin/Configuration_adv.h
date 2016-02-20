@@ -63,7 +63,7 @@
 //and turn off after the set amount of seconds from last driver being disabled again
 #define CONTROLLERFAN_PIN 6 //Pin used for the fan to cool controller (-1 to disable)
 #define CONTROLLERFAN_SECS 120 //How many seconds, after all motors were disabled, the fan should run
-#define CONTROLLERFAN_SPEED 96  // == full speed
+#define CONTROLLERFAN_SPEED 190  // == full speed
 
 // When first starting the main fan, run it at full speed for the
 // given number of milliseconds.  This gets the fan spinning reliably
