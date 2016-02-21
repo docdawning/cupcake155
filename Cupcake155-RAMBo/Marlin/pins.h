@@ -2401,14 +2401,14 @@ DaveX plan for Teensylu/printrboard-type pinouts (ref teensylu & sprinter) for a
 #define E0_STEP_PIN         34
 #define E0_DIR_PIN          43
 #define E0_ENABLE_PIN       26
-#define E0_MS1_PIN 65
-#define E0_MS2_PIN 66
+#define E0_MS1_PIN          65
+#define E0_MS2_PIN          66
 
 #define E1_STEP_PIN         33
 #define E1_DIR_PIN          42
 #define E1_ENABLE_PIN       25
-#define E1_MS1_PIN 63
-#define E1_MS2_PIN 64
+#define E1_MS1_PIN          63
+#define E1_MS2_PIN          64
 
 #define DIGIPOTSS_PIN 38
 #define DIGIPOT_CHANNELS {4,5,3,0,1} // X Y Z E0 E1 digipot channels to stepper driver mapping
@@ -2489,6 +2489,22 @@ DaveX plan for Teensylu/printrboard-type pinouts (ref teensylu & sprinter) for a
   //Filip added pin for Filament sensor analog input 
   #define FILWIDTH_PIN        3
 #endif //FILAMENT_SENSOR
+
+#ifdef NUM_SERVOS
+  #define SERVO0_PIN  4
+
+  #if NUM_SERVOS > 1
+    #define SERVO1_PIN -1
+  #endif
+
+  #if NUM_SERVOS > 2
+    #define SERVO2_PIN -1
+  #endif
+
+  #if NUM_SERVOS > 3
+    #define SERVO3_PIN -1
+  #endif
+#endif //servos
 
 #endif // RAMBO
 

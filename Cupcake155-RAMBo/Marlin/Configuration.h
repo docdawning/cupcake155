@@ -25,7 +25,7 @@
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
 #define STRING_VERSION_CONFIG_H __DATE__ " " __TIME__ // build date and time
-#define STRING_CONFIG_H_AUTHOR "DocDawning, Cupcake155 Configuration V0.7" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "DocDawning, Cupcake155 Configuration V0.8" // Who made the changes.
 
 // SERIAL_PORT selects which serial port should be used for communication with the host.
 // This allows the connection of wireless adapters (for instance) to non-default port pins.
@@ -361,7 +361,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 //===========================================================================
 //============================= Bed Auto Leveling ===========================
 
-//#define ENABLE_AUTO_BED_LEVELING // Delete the comment to enable (remove // at the start of the line)
+#define ENABLE_AUTO_BED_LEVELING // Delete the comment to enable (remove // at the start of the line)
 //#define Z_PROBE_REPEATABILITY_TEST  // If not commented out, Z-Probe Repeatability test will be included if Auto Bed Leveling is Enabled.
 
 #ifdef ENABLE_AUTO_BED_LEVELING
@@ -386,10 +386,10 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #ifdef AUTO_BED_LEVELING_GRID
 
 // set the rectangle in which to probe
-#define LEFT_PROBE_BED_POSITION 15
-#define RIGHT_PROBE_BED_POSITION 170
-#define BACK_PROBE_BED_POSITION 180
-#define FRONT_PROBE_BED_POSITION 20
+#define LEFT_PROBE_BED_POSITION 10
+#define RIGHT_PROBE_BED_POSITION 70
+#define BACK_PROBE_BED_POSITION 70
+#define FRONT_PROBE_BED_POSITION 10
 
 // set the number of grid points per dimension
 // I wouldn't see a reason to go above 3 (=9 probing points on the bed)
@@ -774,6 +774,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // If unsure, leave commented / disabled
 //
 //#define NUM_SERVOS 3 // Servo index starts with 0 for M280 command
+#define NUM_SERVOS 1
 
 // Servo Endstops
 //
